@@ -1,0 +1,56 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="160dp"
+			android:layout_height="160dp"
+			android:layout_marginTop="100dp"
+			android:src="@drawable/app_i"
+			android:scaleType="fitEnd"
+			android:layout_weight="1" />
+		<com.airbnb.lottie.LottieAnimationView
+			android:id="@+id/lottie1"
+			android:layout_width="match_parent"
+			android:layout_height="120dp"
+			android:padding="8dp"
+			android:scaleType="fitCenter"
+			android:layout_centerInParent="true"
+			app:lottie_fileName="your_file.json"
+			app:lottie_loop="true"
+			app:lottie_autoPlay="true" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingTop="8dp"
+			android:paddingRight="8dp"
+			android:gravity="bottom"
+			android:text="Apkss."
+			android:textSize="18sp"
+			android:textColor="#7C4DFF"
+			android:layout_weight="1" />
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Explore a new way (^_-)"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:textColor="#B39DDB" />
+	</LinearLayout>
+</LinearLayout>

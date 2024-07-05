@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_app">User App</string>
+    <string name="system_app">System App</string>
+</resources>
